@@ -21,7 +21,7 @@ def main():
 # Carregar dados do Excel
     
     st.markdown("<h1 style='text-align: center;'>Análise de Risco do Cliente</h1>", unsafe_allow_html=True)
-    file_path = r"C:\Users\makim\OneDrive\Área de Trabalho\PASTA\CLIENTE E TIPO DE SERVIÇO.xlsx"
+    file_path = r'CLIENTE E TIPO DE SERVIÇO.xlsx'
     data = pd.read_excel(file_path)
 
     # Converter a coluna 'TotalCharges' para numérico, forçando erros a se tornarem NaN
