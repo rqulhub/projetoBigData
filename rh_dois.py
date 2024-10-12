@@ -8,7 +8,7 @@ def main():
     st.markdown("<h1 style='text-align: center;'>Diversidade e Inclusão 2</h1>", unsafe_allow_html=True)
 
     # Carregar dados
-    file_path = r'C:\Users\makim\OneDrive\Área de Trabalho\PASTA\DIVERSIDADE NA EMPRESA.xlsx'
+    file_path = r'DIVERSIDADE NA EMPRESA.xlsx'
     df = pd.read_excel(file_path)
 
     # Dividir em dois containers: top e bottom row

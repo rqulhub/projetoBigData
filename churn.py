@@ -12,7 +12,7 @@ def main():
 
     # Carregando o dataset
     # Substitua 'seu_arquivo.xlsx' pelo caminho do seu arquivo de dados
-    df = pd.read_excel(r'C:\Users\makim\OneDrive\Área de Trabalho\PASTA\CLIENTE E TIPO DE SERVIÇO.xlsx')
+    df = pd.read_excel(r'CLIENTE E TIPO DE SERVIÇO.xlsx')
 
     # Calculando as métricas para a top row
     clientes_churn = df[df['Churn'] == 'Yes'].shape[0]

@@ -7,7 +7,7 @@ def main():
     st.markdown("<h1 style='text-align: center;'>Diversidade e Inclusão 1</h1>", unsafe_allow_html=True)
 
     # Carregando os dados
-    file_path = r"C:\Users\makim\OneDrive\Área de Trabalho\PASTA\DIVERSIDADE NA EMPRESA.xlsx"
+    file_path = r"DIVERSIDADE NA EMPRESA.xlsx"
     data = pd.read_excel(file_path)
     data['New hire FY20?'] = data['New hire FY20?'].replace({'Y': 1, 'N': 0})
 

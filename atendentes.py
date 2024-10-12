@@ -12,7 +12,7 @@ def main():
 
 # Carregar o conjunto de dados
     st.markdown("<h1 style='text-align: center;'>Análise de Performance de SAC</h1>", unsafe_allow_html=True)
-    data = pd.read_excel(r'C:\Users\makim\OneDrive\Área de Trabalho\PASTA\ATENDENTES E PERFORMANCE.xlsx')
+    data = pd.read_excel(r'ATENDENTES E PERFORMANCE.xlsx')
 
     # Função para converter datetime.time para segundos
     def time_to_seconds(time_value):
