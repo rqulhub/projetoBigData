@@ -1,4 +1,4 @@
-pandas
-plotly
-streamlit
+pandas==1.4.4
+plotly==5.9.0
+streamlit==1.37.1
 datetime
