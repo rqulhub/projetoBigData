@@ -1,2 +1,5 @@
-plotly 
-pandas
+streamlit                                               
+pandas                                                   
+plotly_express                                           
+plotly.graph_objects
+datetime
