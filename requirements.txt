@@ -1,7 +1,6 @@
 pandas
 plotly
 plotly_express
-plotly.graph_objects
 numpy
 streamlit
 datetime
