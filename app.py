@@ -24,10 +24,10 @@ menu = st.sidebar.selectbox(
 # Carregar o dashboard selecionado
 if menu == "Performance do SAC":
     atendentes.main()  # Chama a função principal do arquivo atendentes.py
-elif menu == "Análise de Risco do Cliente":
-    analise_de_risco.main()  # Chama a função principal do arquivo analise_de_risco.py
 elif menu == "Análise de Churn":
     churn.main()  # Chama a função principal do arquivo churn.py
+elif menu == "Análise de Risco do Cliente":
+    analise_de_risco.main()  # Chama a função principal do arquivo analise_de_risco.py
 elif menu == "Diversidade e Inclusão 1":
     rh_um.main()  # Chama a função principal do arquivo churn.py
 elif menu == "Diversidade e Inclusão 2":
