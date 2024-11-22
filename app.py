@@ -18,7 +18,7 @@ st.title("Estudo de Caso: BBG Telecom")
 # Menu lateral para selecionar o dashboard
 menu = st.sidebar.selectbox(
     "Selecione o Dashboard",
-    ["Performance do SAC", "Análise de Risco do Cliente", "Análise de Churn", "Diversidade e Inclusão 1", "Diversidade e Inclusão 2"]
+    ["Performance do SAC", "Análise de Churn", "Análise de Risco do Cliente", "Diversidade e Inclusão 1", "Diversidade e Inclusão 2"]
 )
 
 # Carregar o dashboard selecionado

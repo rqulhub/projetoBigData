@@ -119,21 +119,21 @@ def main():
             fig_payment.update_traces(texttemplate='%{text:.2f}%', textposition='inside')
             st.plotly_chart(fig_payment)
 
-            # Gráfico de rosca para Paperless Billing
+            # Gráfico de rosca para Pagamentos sem papel
             paperless_counts = df['PaperlessBilling'].value_counts()
             fig_paperless = px.pie(
                 names=paperless_counts.index,
                 values=paperless_counts.values,
                 hole=0.5,
-                title="Uso de Paperless Billing",
+                title="Uso de pagamentos sem papel",
             )
             fig_paperless.update_traces(textposition='inside', textinfo='percent+label')
             st.plotly_chart(fig_paperless)
 
             # Dados de receita para Paperless Billing
-            selected_option = st.radio("Selecionar tipo de Billing:", ("Paperless", "Não Paperless"))
+            selected_option = st.radio("Selecionar tipo de Pagamento:", ("Sem papel", "Com papel"))
 
-            if selected_option == "Paperless":
+            if selected_option == "Sem papel":
                 filtered_data = df[df['PaperlessBilling'] == 'Yes']
             else:
                 filtered_data = df[df['PaperlessBilling'] == 'No']
